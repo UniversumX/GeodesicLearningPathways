@@ -1,0 +1,21 @@
+{
+    "model_class": "__main__.DummyModel",
+    "optimizer": "Adam",
+    "loss_function": "MSELoss",
+    "metrics": ["loss", "accuracy"],
+    "dataset": "__main__.SyntheticDataset",
+    "model_params": {
+        "coefficients": [0.5, 1.2, -0.7, 0.3, 0.9, -1.1, 0.8, 0.6, -0.2, 0.4]
+    },
+    "optimizer_params": {
+        "lr": 0.001
+    },
+    "dataset_params": {
+        "num_samples": 100,
+        "num_features": 10
+    },
+    "dataloader_params": {
+        "batch_size": 32,
+        "shuffle": true
+    }
+}
